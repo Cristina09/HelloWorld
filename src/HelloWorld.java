@@ -19,7 +19,6 @@ public class HelloWorld extends HttpServlet {
 
         // Actual logic goes here.
         PrintWriter out = response.getWriter();
-        out.println("<h1> This will be my login screen!! </h1>");
     }
 
     public void destroy()
